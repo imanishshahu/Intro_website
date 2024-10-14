@@ -30,16 +30,18 @@
 }
 
 .icon-map-marker:before {
-    content: "\f041";
+    /* content: "\f041"; */
+    /* background-image:url("location.png") ;  */
 }
 
 .icon-calendar:before {
     content: "\f073";
 }
 
-.icon-phone:before {
-    content: "\f095";
-}
+/* .icon-phone:before { */
+    /* content: "\f095"; */
+    /* background-image:url("phone.png") ; */
+/* } */
 
 .icon-twitter:before {
     content: "\f099";
@@ -50,11 +52,11 @@
 }
 
 .icon-globe:before {
-    content: "\f0ac";
+    /* content: "\f0ac"; */
 }
 
 .icon-envelope:before {
-    content: "\f0e0";
+    /* content: "\f0e0"; */
 }
 
 .icon-instagram:before {
@@ -66,15 +68,15 @@
 }
 
 .icon-paper-plane:before {
-    content: "\f1d8";
+    /* content: "\f1d8"; */
 }
 
 .icon-map-signs:before {
-    content: "\f277";
+    /* content: "\f277"; */
 }
 
 .icon-phone2:before {
-    content: "\e0cd";
+    /* content: "\e0cd"; */
 }
 
 .icon-chat:before {

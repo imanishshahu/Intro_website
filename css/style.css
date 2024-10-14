@@ -3543,17 +3543,19 @@ textarea.form-control {
 .contact-section .box .icon {
     width: 100px;
     height: 100px;
-    background: #3e64ff;
+    /* background: #3e64ff; */
+ /* background-image:url('/Users/imanishshahu/Downloads/preview.colorlib.com/preview.colorlib.com/theme/ronaldo/images/phone.png'); */
+    background-size: cover;
     margin: 0 auto;
     margin-bottom: 10px;
-    -webkit-border-radius: 50%;
+    -webkit-border-radius: 50%; 
     -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
+     -ms-border-radius: 50%;
     border-radius: 50%;
 }
 
 .contact-section .box .icon span {
-    color: #fff;
+    /* color: #fff; */
     font-size: 30px;
 }
 
