@@ -1,4 +1,4 @@
-<?php
+<?php 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect form data
     $name = htmlspecialchars($_POST['name']);
@@ -27,4 +27,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "There was an error sending your message. Please try again.";
     }
 }
-?>
+/*?>*/
