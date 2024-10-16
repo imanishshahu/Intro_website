@@ -23,7 +23,7 @@ exports.handler = async (event, context) => {
   // Set up email data
   const mailOptions = {
     from: email, // Sender's email (user's email)
-    to: "shahamanish7@gmail.com", // Your email to receive the message
+    to: "trimanico01@gmail.com", // Your email to receive the message
     subject: subject,
     text: `You have received a new message from ${name} (${email}):\n\n${message}`,
   };
