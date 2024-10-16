@@ -15,15 +15,15 @@ exports.handler = async (event, context) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "your-email@gmail.com", // Replace with your Gmail address
-      pass: "your-app-password", // Replace with your App-specific password
+      user: "trimanico01@gmail.com", // Replace with your Gmail address
+      pass: "#@$trimanico@9876", // Replace with your App-specific password
     },
   });
 
   // Set up email data
   const mailOptions = {
     from: email, // Sender's email (user's email)
-    to: "trimanico01@gmail.com", // Your email to receive the message
+    to: "shahamanish7@gmail.com", // Your email to receive the message
     subject: subject,
     text: `You have received a new message from ${name} (${email}):\n\n${message}`,
   };
