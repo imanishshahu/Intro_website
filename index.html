@@ -419,7 +419,7 @@
                             <div class="text pl-3">
                                 <!-- <span class="date">2014-2015</span> -->
                                 <h2>Earned First Place In Python Bootcam</h2>
-                                <span class="position">AI Club</span>
+                                <span class="position">AI Club, Kathmandu University</span>
                                 <p> I earned first place in a competition organized by the AI Club at Kathmandu University, demonstrating my expertise in AI-driven problem-solving. This achievement highlights my dedication to applying advanced AI concepts in challenging, real-world scenarios.p>
                             </div>
                         </div>
@@ -778,7 +778,7 @@
                 </div>
             </div>
             <!-- Start of Script -->
-             <script src="server.js"></script>
+             <!-- <script src="server.js"></script>
             <script>
                 document.getElementById('contact-form').addEventListener('submit', function(event) {
                     event.preventDefault(); // Prevent default form submission
@@ -805,7 +805,7 @@
                         console.error('Error:', error);
                     });
                 });
-                </script>
+                </script> -->
                 <!-- last of Script  -->
             <div class="row no-gutters block-9">
                 <div class="col-md-6 order-md-last d-flex">
@@ -826,7 +826,21 @@
                             <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
                         </div>
                     </form>
-                    
+                    <script>
+                        document.getElementById('contact-form').addEventListener('submit', async function(e) {
+                            e.preventDefault();
+                            const formData = new FormData(this);
+                            const data = Object.fromEntries(formData.entries());
+                        
+                            const response = await fetch('/.netlify/functions/send-email', {
+                                method: 'POST',
+                                body: JSON.stringify(data),
+                            });
+                        
+                            const result = await response.json();
+                            alert(result.message);
+                        });
+                        </script>
                 </div>
                 <div class="col-md-6 d-flex">
                     <div class="img" style="background-image: url(images/mine4.png);"></div>
