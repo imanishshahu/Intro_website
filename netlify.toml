@@ -1,2 +1,7 @@
 [build]
-  functions = "functions"
+  functions = "functions"  # This is the directory where your Netlify Functions are stored
+
+[[redirects]]
+  from = "/contact-form"
+  to = "/.netlify/functions/send-email"
+  status = 200
