@@ -1040,6 +1040,7 @@ fieldset:disabled a.btn {
     white-space: nowrap;
     background-color: transparent;
     border: 0;
+    /* justify-content: space-around; */
 }
 
 .dropdown-item:hover,
@@ -1065,6 +1066,7 @@ fieldset:disabled a.btn {
 
 .dropdown-menu.show {
     display: block;
+    /* justify-content: space-around; */
 }
 
 .nav {
